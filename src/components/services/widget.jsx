@@ -12,6 +12,7 @@ import Speedtest from "./widgets/service/speedtest";
 import Traefik from "./widgets/service/traefik";
 import Jellyseerr from "./widgets/service/jellyseerr";
 import Npm from "./widgets/service/npm";
+import Qbittorrent from "./widgets/service/qbittorrent";
 
 const widgetMappings = {
   docker: Docker,
@@ -28,6 +29,7 @@ const widgetMappings = {
   traefik: Traefik,
   jellyseerr: Jellyseerr,
   npm: Npm,
+  qbittorrent: Qbittorrent,
 };
 
 export default function Widget({ service }) {
