@@ -13,6 +13,7 @@ import Traefik from "./widgets/service/traefik";
 import Jellyseerr from "./widgets/service/jellyseerr";
 import Npm from "./widgets/service/npm";
 import Tautulli from "./widgets/service/tautulli";
+import Navidrome from "./widgets/service/navidrome";
 
 const widgetMappings = {
   docker: Docker,
@@ -30,6 +31,7 @@ const widgetMappings = {
   jellyseerr: Jellyseerr,
   npm: Npm,
   tautulli: Tautulli,
+  navidrome: Navidrome,
 };
 
 export default function Widget({ service }) {
